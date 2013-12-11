@@ -1,0 +1,35 @@
+<?PHP
+
+
+fix('captcha.png','done.png');
+
+
+
+function fix($from,$to) {
+
+	$im = imagecreatefrompng($from);
+
+	#imagefilter($im, IMG_FILTER_GRAYSCALE);
+	imagefilter($im, IMG_FILTER_CONTRAST, -100);
+	#imagefilter($im, IMG_FILTER_CONTRAST, -1000);
+	imagetruecolortopalette($im,false, 255);
+	imagepurebw($im);
+	imagepng($im, $to);
+	imagedestroy($im);
+
+
+}
+
+
+function imagepurebw( $im, $amount = 695 ) {
+    $total = imagecolorstotal( $im );
+    for ( $i = 0; $i < $total; $i++ ) {
+        $index = imagecolorsforindex( $im, $i );
+        array_pop( $index );
+        $color = ( array_sum( $index ) > $amount ) ? 255 : 0;
+        imagecolorset( $im, $i, $color, $color, $color );
+    }
+}
+
+
+?>

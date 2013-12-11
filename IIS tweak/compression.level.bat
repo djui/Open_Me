@@ -1,0 +1,1 @@
+C:\Windows\System32\Inetsrv\Appcmd.exe  set config -section:httpCompression -[name='gzip'].staticCompressionLevel:9 -[name='gzip'].dynamicCompressionLevel:9

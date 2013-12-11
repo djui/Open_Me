@@ -1,0 +1,3 @@
+Wy³añcza debuger Dr. Watson, przydate po np. restarcie Exporera wtedy automatycznie uruchamia sie nowy w¹tek po wyst¹pienu b³êdu, 
+
+ps. Explorer zaczo³ siê wieszac nagminnie od XP/SP2 ale najwidoczniej M$ ma to w pupie

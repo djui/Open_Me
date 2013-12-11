@@ -1,0 +1,1 @@
+run php script with command line

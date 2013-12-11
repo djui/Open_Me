@@ -1,0 +1,1 @@
+chkntfs /x c: f:

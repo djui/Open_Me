@@ -1,0 +1,1 @@
+tesseract.exe captcha2.bmp captcha2

@@ -1,0 +1,1 @@
+tesseract.exe done2.bmp strims

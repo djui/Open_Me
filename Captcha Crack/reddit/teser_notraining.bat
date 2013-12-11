@@ -1,0 +1,1 @@
+tesseract.exe 3_3.bmp cap

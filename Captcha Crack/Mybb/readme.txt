@@ -1,0 +1,1 @@
+tesseract - need create own training files for 2 font

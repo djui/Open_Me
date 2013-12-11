@@ -1,0 +1,1 @@
+tesseract.exe 2_fixed.bmp cap
